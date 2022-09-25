@@ -13,40 +13,39 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to 
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          Get started 
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="https://www.google.com/search?q=pizza&oq=pizza&aqs=chrome..69i57j0i512j46i10i131i199i433i465j46i131i199i433i465j0i512l2j46i199i465i512j0i512j0i433i512j0i131i433i512.1533j0j7&sourceid=chrome&ie=UTF-8" className={styles.card}>
+            <h2>Pizza &rarr;</h2>
+            <p>Find Pizza on search engine.</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          <a href="https://www.google.com/search?q=Husky&sxsrf=ALiCzsbWjnaJHri3C1RefQaJ7oyM0IkBFQ%3A1664127057397&ei=UZAwY5HyF9Dk-Qbw36XwDg&ved=0ahUKEwjR3vewvLD6AhVQct4KHfBvCe4Q4dUDCA4&uact=5&oq=Husky&gs_lcp=Cgdnd3Mtd2l6EAMyCAguENQCEMsBMgUIABCABDIFCAAQywEyBQgAEMsBMgUIABDLATIFCAAQywEyBQgAEMsBMgUIABDLATIFCAAQywEyBQgAEMsBOgoIABBHENYEELADOg0IABBHENYEELADEMkDOgcIABCwAxBDOg0IABDkAhDWBBCwAxgBOhUILhDHARDRAxDUAhDIAxCwAxBDGAI6DAguEMgDELADEEMYAjoUCC4QxwEQ0QMQyAMQsAMQChBDGAJKBAhBGABKBAhGGAFQxQRYxQRggAhoA3ABeACAAaIBiAGiAZIBAzAuMZgBAKABAqABAcgBE8ABAdoBBggBEAEYCdoBBggCEAEYCA&sclient=gws-wiz" className={styles.card}>
+            <h2>Husky &rarr;</h2>
+            <p>Find Husky Dog on search engine</p>
           </a>
 
           <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://www.google.com/search?q=KFC&oq=KFC+&aqs=chrome..69i57j35i39j0i512l2j46i175i199i512j0i512l2j46i175i199i512l2j46i199i465i512.1522j0j9&sourceid=chrome&ie=UTF-8"
             className={styles.card}
           >
-            <h2>Deploy &rarr;</h2>
+            <h2>KFC Chicken &rarr;</h2>
+            <p>Discover KFC Chicken on search engine.</p>
+          </a>
+
+          <a
+            href="https://www.google.com/search?q=polar+bears&sxsrf=ALiCzsaQfRjZI-hHV8dxq2-VQOsjB3IUlQ%3A1664127278995&ei=LpEwY6a1PMKkwAPvxpL4Bw&ved=0ahUKEwimhM2avbD6AhVCEnAKHW-jBH8Q4dUDCA4&uact=5&oq=polar+bears&gs_lcp=Cgdnd3Mtd2l6EAMyBQgAEMsBMgUILhDLATIFCAAQywEyBQgAEMsBMgUIABDLATIFCAAQywEyBQgAEMsBMgUIABDLATIFCAAQywEyBQgAEMsBOgoIABBHENYEELADOgcIABCwAxBDOhIILhDHARDRAxDIAxCwAxBDGAE6DwguENQCEMgDELADEEMYAUoECEEYAEoECEYYAFDOBFjOBGDfC2gCcAF4AIABvgGIAb4BkgEDMC4xmAEAoAECoAEByAELwAEB2gEECAEYCA&sclient=gws-wiz"
+            className={styles.card}
+          >
+            <h2>Polar Bears &rarr;</h2>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              See Polar Bear on search engine.
             </p>
           </a>
         </div>
@@ -58,10 +57,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
+          
         </a>
       </footer>
     </div>
